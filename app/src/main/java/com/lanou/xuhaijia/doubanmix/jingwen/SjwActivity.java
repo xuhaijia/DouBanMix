@@ -1,4 +1,4 @@
-package jingwen;
+package com.lanou.xuhaijia.doubanmix.jingwen;
 
 import android.app.Activity;
 
@@ -28,18 +28,18 @@ import android.app.Activity;
  * <p/>
  * Created by 史静雯 date
  */
-public class StudentActivity  extends Activity{
-    //我就负责写注释
+public class SjwActivity extends Activity {
 
-    private int a;
-    private int b;
+    private  int a;
+
+    public int getA() {
+        return a;
+    }
 
     public void setA(int a) {
         this.a = a;
     }
 
-    public void setB(int b) {
-        this.b = b;
+    public SjwActivity() {
     }
 }
-
